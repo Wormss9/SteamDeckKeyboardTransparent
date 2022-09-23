@@ -1,0 +1,66 @@
+{
+	"name": "Transparent Keyboard",
+	"version": "1.0",
+	"author": "Wormss9",
+	"target": "Keyboard",
+	"description": "Custom keyboard",
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"patches": {
+		"Background Transparency": {
+			"default": "50%",
+			"type": "slider",
+			"values": {
+			"0%": { "backgroundTranparency/0%.css": ["SP"] },
+			"10%": { "backgroundTranparency/10%.css": ["SP"] },
+			"20%": { "backgroundTranparency/20%.css": ["SP"] },
+			"30%": { "backgroundTranparency/30%.css": ["SP"] },
+			"40%": { "backgroundTranparency/40%.css": ["SP"] },
+			"50%": { "backgroundTranparency/50%.css": ["SP"] },
+			"60%": { "backgroundTranparency/60%.css": ["SP"] },
+			"70%": { "backgroundTranparency/70%.css": ["SP"] },
+			"80%": { "backgroundTranparency/80%.css": ["SP"] },
+			"90%": { "backgroundTranparency/90%.css": ["SP"] },
+			"100%": { "backgroundTranparency/100%.css": ["SP"] }
+			}
+		},
+		"Buttons Transparency": {
+			"default": "10%",
+			"type": "slider",
+			"values": {
+			"0%": { "buttonTranparency/0%.css": ["SP"] },
+			"10%": { "buttonTranparency/10%.css": ["SP"] },
+			"20%": { "buttonTranparency/20%.css": ["SP"] },
+			"30%": { "buttonTranparency/30%.css": ["SP"] },
+			"40%": { "buttonTranparency/40%.css": ["SP"] },
+			"50%": { "buttonTranparency/50%.css": ["SP"] },
+			"60%": { "buttonTranparency/60%.css": ["SP"] },
+			"70%": { "buttonTranparency/70%.css": ["SP"] },
+			"80%": { "buttonTranparency/80%.css": ["SP"] },
+			"90%": { "buttonTranparency/90%.css": ["SP"] },
+			"100%": { "buttonTranparency/100%.css": ["SP"] }
+			}
+		},
+		"Pointer Transparency": {
+			"default": "100%",
+			"type": "slider",
+			"values": {
+			"0%": { "pointerTransparency/0%.css": ["SP"] },
+			"10%": { "pointerTransparency/10%.css": ["SP"] },
+			"20%": { "pointerTransparency/20%.css": ["SP"] },
+			"30%": { "pointerTransparency/30%.css": ["SP"] },
+			"40%": { "pointerTransparency/40%.css": ["SP"] },
+			"50%": { "pointerTransparency/50%.css": ["SP"] },
+			"60%": { "pointerTransparency/60%.css": ["SP"] },
+			"70%": { "pointerTransparency/70%.css": ["SP"] },
+			"80%": { "pointerTransparency/80%.css": ["SP"] },
+			"90%": { "pointerTransparency/90%.css": ["SP"] },
+			"100%": { "pointerTransparency/100%.css": ["SP"] }
+			}
+		}
+	}
+}
+

@@ -1,0 +1,36 @@
+:root {
+    --btn-transparent-black: #00000080;
+    --btn-transparent-white: #FFFFFF80;
+    --btn-transparent-light-blue: #1A9FFF80;
+    --btn-transparent-dark-blue: #0E141B80;
+    --btn-transparent-grey-blue: #3D445080;
+    --btn-transparent-light-grey: #3D445080;
+}
+
+.DefaultTheme {
+    --key-background-color: var(--btn-transparent-dark-blue);
+    --key-focused-background-color: var(--btn-transparent-white);
+    --key-meta-background-color: var(--btn-transparent-black);
+    --key-tab-background-color: var(--btn-transparent-black);
+    --key-caps-background-color: var(--btn-transparent-black);
+    --key-shift-background-color: var(--btn-transparent-black);
+    --key-enter-background-color: var(--btn-transparent-black);
+    --key-backspace-background-color: var(--btn-transparent-black);
+    --key-spacebar-background-color: var(--btn-transparent-dark-blue);
+    --key-spacer-background-color: var(--btn-transparent-black);
+    --key-extendedkey-background-color: var(--btn-transparent-light-blue);
+    --key-extendedkey-focused-background-color: var(--btn-transparent-white);
+    --key-extendedkey-hover-background-color: var(--btn-transparent-white);
+    --key-toggleon-background-color: var(--btn-transparent-light-blue);
+    --key-emoji-category-background-color: transparent;
+    --key-emoji-category-highlight-background-color: var(--btn-transparent-grey-blue);
+    --key-emoji-row-background-color: transparent;
+    --key-emoji-background-color: transparent;
+    --key-emoji-focused-background-color: var(--btn-transparent-light-grey);
+    --key-touched-background-color: var(--btn-transparent-white);
+    --key-deadkey-background-color: var(--btn-transparent-black);
+}
+
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq {
+    background-color: var(--btn-transparent-light-blue);
+}
