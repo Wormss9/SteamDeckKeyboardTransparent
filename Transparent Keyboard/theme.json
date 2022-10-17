@@ -14,7 +14,7 @@
 			"default": "50%",
 			"type": "slider",
 			"values": {
-			"0%": { "backgroundTransparency/0%.css": ["SP"] },
+			"0%": { "backgroundTransparency/00%.css": ["SP"] },
 			"10%": { "backgroundTransparency/10%.css": ["SP"] },
 			"20%": { "backgroundTransparency/20%.css": ["SP"] },
 			"30%": { "backgroundTransparency/30%.css": ["SP"] },
@@ -31,7 +31,7 @@
 			"default": "10%",
 			"type": "slider",
 			"values": {
-			"0%": { "buttonTransparency/0%.css": ["SP"] },
+			"0%": { "buttonTransparency/00%.css": ["SP"] },
 			"10%": { "buttonTransparency/10%.css": ["SP"] },
 			"20%": { "buttonTransparency/20%.css": ["SP"] },
 			"30%": { "buttonTransparency/30%.css": ["SP"] },
@@ -48,7 +48,7 @@
 			"default": "100%",
 			"type": "slider",
 			"values": {
-			"0%": { "pointerTransparency/0%.css": ["SP"] },
+			"0%": { "pointerTransparency/00%.css": ["SP"] },
 			"10%": { "pointerTransparency/10%.css": ["SP"] },
 			"20%": { "pointerTransparency/20%.css": ["SP"] },
 			"30%": { "pointerTransparency/30%.css": ["SP"] },
