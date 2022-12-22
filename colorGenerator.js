@@ -1,8 +1,6 @@
 fs = require('fs');
 
 let themes = ["DefaultTheme", "SteamGreen", "Digital", "NightShift", "Candy", "DEX"]
-let bgcolor = ["#23262E", "#3E4637", "#010F02", "linear-gradient(43deg, #020609 0%, #0a3745 46%, #031519 100%)", "linear-gradient(45deg, #ffffff 0%, #cacaca 100%)", "linear-gradient(55deg, #304348, #2b3639)"]
-let ptcolor = ["#1A9FFF", "#c4b550", "#19E015", "#f13292", "#8b929a", "#a59f93"]
 let colors = [
     ["#000000", "#FFFFFF", "#1A9FFF", "#0E141B", "#3D4450"],
     ["#3e4637", "#c4b550", "#c4b550", "#0e141b", "#3e4637"],
@@ -14,16 +12,12 @@ let colors = [
 
 //background
 for (let i = 0; i <= 10; i++) {
-    let data =`:root {\n    --background-transparency: ${i};\n}\n\n` 
+    const data =`:root {\n    --background-transparency: ${i};\n}\n\n` 
     fs.writeFile(`Transparent Keyboard/backgroundTransparency/${i}0%.css`, data, () => undefined)
 }
 //pointer
 for (let i = 0; i <= 10; i++) {
-    let data = ""
-    for (let j = 0; j < themes.length; j++) {
-        let opacity = ((10 - i) / 10 * 255).toString(16).slice(0, 2).toUpperCase()
-        data += `.${themes[j]} {\n    --key-pointer-background-color: ${ptcolor[j].replaceAll(/(#......)/ig, `$1${opacity}`)};\n}\n\n`
-    }
+    const data =`:root {\n    --pointer-transparency: ${i};\n}\n\n` 
     fs.writeFile(`Transparent Keyboard/pointerTransparency/${i}0%.css`, data, () => undefined)
 }
 //buttons
