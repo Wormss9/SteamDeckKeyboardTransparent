@@ -1,39 +1,220 @@
 .virtualkeyboard_VirtualKeyboardContainer_33MO2,
-.virtualkeyboardcontainer_VirtualKeyboardContainer_Oel3O
-/* .virtualkeyboard_Keyboard_45rH7  */
-    {
+.virtualkeyboardcontainer_VirtualKeyboardContainer_Oel3O {
     position: absolute;
     background-color: transparent;
     width: 100%;
     bottom: 0;
 }
 
+:root {
+    --btn-transparent-0-0: rgba(0, 0, 0, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-0-1: rgba(255, 255, 255, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-0-2: rgba(26, 159, 255, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-0-3: rgba(14, 20, 27, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-0-4: rgba(61, 68, 80, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-1-0: rgba(62, 70, 55, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-1-1: rgba(196, 181, 80, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-1-2: rgba(196, 181, 80, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-1-3: rgba(14, 20, 27, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-1-4: rgba(62, 70, 55, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-2-0: rgba(16, 39, 23, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-2-1: rgba(25, 224, 21, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-2-2: rgba(25, 224, 21, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-2-3: rgba(1, 15, 2, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-2-4: rgba(16, 39, 23, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-3-0: rgba(16, 34, 39, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-3-1: rgba(21, 212, 224, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-3-2: rgba(21, 212, 224, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-3-3: rgba(255, 255, 255, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-3-4: rgba(24, 172, 182, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-4-0: rgba(255, 255, 255, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-4-1: rgba(61, 68, 80, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-4-2: rgba(61, 68, 80, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-4-3: rgba(61, 68, 80, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-4-4: rgba(61, 68, 80, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-5-0: linear-gradient(55deg, rgba(48, 67, 72, calc(1 - (var(--button-transparency)/10))), rgba(43, 54, 57, calc(1 - (var(--button-transparency)/10))));
+    --btn-transparent-5-1: rgba(213, 206, 191, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-5-2: rgba(132, 57, 120, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-5-3: rgba(255, 255, 255, calc(1 - (var(--button-transparency)/10)));
+    --btn-transparent-5-4: rgba(78, 77, 72, calc(1 - (var(--button-transparency)/10)));
+}
+
 .DefaultTheme {
     --background-color: rgba(35, 38, 46, calc(1 - (var(--background-transparency)/10)));
     --key-pointer-background-color: rgba(26, 159, 255, calc(1 - (var(--pointer-transparency)/10)));
+    --key-background-color: var(--btn-transparent-0-3);
+    --key-focused-background-color: var(--btn-transparent-0-1);
+    --key-meta-background-color: var(--btn-transparent-0-0);
+    --key-tab-background-color: var(--btn-transparent-0-0);
+    --key-caps-background-color: var(--btn-transparent-0-0);
+    --key-shift-background-color: var(--btn-transparent-0-0);
+    --key-enter-background-color: var(--btn-transparent-0-0);
+    --key-backspace-background-color: var(--btn-transparent-0-0);
+    --key-spacebar-background-color: var(--btn-transparent-0-3);
+    --key-spacer-background-color: var(--btn-transparent-0-0);
+    --key-extendedkey-background-color: var(--btn-transparent-0-2);
+    --key-extendedkey-focused-background-color: var(--btn-transparent-0-1);
+    --key-extendedkey-hover-background-color: var(--btn-transparent-0-1);
+    --key-toggleon-background-color: var(--btn-transparent-0-2);
+    --key-emoji-category-background-color: transparent;
+    --key-emoji-category-highlight-background-color: var(--btn-transparent-0-4);
+    --key-emoji-row-background-color: transparent;
+    --key-emoji-background-color: transparent;
+    --key-emoji-focused-background-color: var(--btn-transparent-0-4);
+    --key-touched-background-color: var(--btn-transparent-0-1);
+    --key-deadkey-background-color: var(--btn-transparent-0-0);
+}
+
+.DefaultTheme .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq {
+    background-color: var(--btn-transparent-0-2);
 }
 
 .SteamGreen {
     --background-color: rgba(62, 70, 55, calc(1 - (var(--background-transparency)/10)));
     --key-pointer-background-color: rgba(196, 181, 80, calc(1 - (var(--pointer-transparency)/10)));
+    --key-background-color: var(--btn-transparent-1-3);
+    --key-focused-background-color: var(--btn-transparent-1-1);
+    --key-meta-background-color: var(--btn-transparent-1-0);
+    --key-tab-background-color: var(--btn-transparent-1-0);
+    --key-caps-background-color: var(--btn-transparent-1-0);
+    --key-shift-background-color: var(--btn-transparent-1-0);
+    --key-enter-background-color: var(--btn-transparent-1-0);
+    --key-backspace-background-color: var(--btn-transparent-1-0);
+    --key-spacebar-background-color: var(--btn-transparent-1-3);
+    --key-spacer-background-color: var(--btn-transparent-1-0);
+    --key-extendedkey-background-color: var(--btn-transparent-1-2);
+    --key-extendedkey-focused-background-color: var(--btn-transparent-1-1);
+    --key-extendedkey-hover-background-color: var(--btn-transparent-1-1);
+    --key-toggleon-background-color: var(--btn-transparent-1-2);
+    --key-emoji-category-background-color: transparent;
+    --key-emoji-category-highlight-background-color: var(--btn-transparent-1-4);
+    --key-emoji-row-background-color: transparent;
+    --key-emoji-background-color: transparent;
+    --key-emoji-focused-background-color: var(--btn-transparent-1-4);
+    --key-touched-background-color: var(--btn-transparent-1-1);
+    --key-deadkey-background-color: var(--btn-transparent-1-0);
+}
+
+.SteamGreen .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq {
+    background-color: var(--btn-transparent-1-2);
 }
 
 .Digital {
     --background-color: rgba(1, 15, 2, calc(1 - (var(--background-transparency)/10)));
     --key-pointer-background-color: rgba(25, 224, 21, calc(1 - (var(--pointer-transparency)/10)));
+    --key-background-color: var(--btn-transparent-2-3);
+    --key-focused-background-color: var(--btn-transparent-2-1);
+    --key-meta-background-color: var(--btn-transparent-2-0);
+    --key-tab-background-color: var(--btn-transparent-2-0);
+    --key-caps-background-color: var(--btn-transparent-2-0);
+    --key-shift-background-color: var(--btn-transparent-2-0);
+    --key-enter-background-color: var(--btn-transparent-2-0);
+    --key-backspace-background-color: var(--btn-transparent-2-0);
+    --key-spacebar-background-color: var(--btn-transparent-2-3);
+    --key-spacer-background-color: var(--btn-transparent-2-0);
+    --key-extendedkey-background-color: var(--btn-transparent-2-2);
+    --key-extendedkey-focused-background-color: var(--btn-transparent-2-1);
+    --key-extendedkey-hover-background-color: var(--btn-transparent-2-1);
+    --key-toggleon-background-color: var(--btn-transparent-2-2);
+    --key-emoji-category-background-color: transparent;
+    --key-emoji-category-highlight-background-color: var(--btn-transparent-2-4);
+    --key-emoji-row-background-color: transparent;
+    --key-emoji-background-color: transparent;
+    --key-emoji-focused-background-color: var(--btn-transparent-2-4);
+    --key-touched-background-color: var(--btn-transparent-2-1);
+    --key-deadkey-background-color: var(--btn-transparent-2-0);
+}
+
+.Digital .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq {
+    background-color: var(--btn-transparent-2-2);
 }
 
 .NightShift {
     --background-color: linear-gradient(43deg, rgba(2, 6, 9, calc(1 - (var(--background-transparency)/10))) 0%, rgba(10, 55, 69, calc(1 - (var(--background-transparency)/10))) 46%, rgba(3, 21, 25, calc(1 - (var(--background-transparency)/10))) 100%);
     --key-pointer-background-color: rgba(241, 50, 146, calc(1 - (var(--pointer-transparency)/10)));
+    --key-background-color: var(--btn-transparent-3-3);
+    --key-focused-background-color: var(--btn-transparent-3-1);
+    --key-meta-background-color: var(--btn-transparent-3-0);
+    --key-tab-background-color: var(--btn-transparent-3-0);
+    --key-caps-background-color: var(--btn-transparent-3-0);
+    --key-shift-background-color: var(--btn-transparent-3-0);
+    --key-enter-background-color: var(--btn-transparent-3-0);
+    --key-backspace-background-color: var(--btn-transparent-3-0);
+    --key-spacebar-background-color: var(--btn-transparent-3-3);
+    --key-spacer-background-color: var(--btn-transparent-3-0);
+    --key-extendedkey-background-color: var(--btn-transparent-3-2);
+    --key-extendedkey-focused-background-color: var(--btn-transparent-3-1);
+    --key-extendedkey-hover-background-color: var(--btn-transparent-3-1);
+    --key-toggleon-background-color: var(--btn-transparent-3-2);
+    --key-emoji-category-background-color: transparent;
+    --key-emoji-category-highlight-background-color: var(--btn-transparent-3-4);
+    --key-emoji-row-background-color: transparent;
+    --key-emoji-background-color: transparent;
+    --key-emoji-focused-background-color: var(--btn-transparent-3-4);
+    --key-touched-background-color: var(--btn-transparent-3-1);
+    --key-deadkey-background-color: var(--btn-transparent-3-0);
+}
+
+.NightShift .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq {
+    background-color: var(--btn-transparent-3-2);
 }
 
 .Candy {
     --background-color: linear-gradient(45deg, rgba(255, 255, 255, calc(1 - (var(--background-transparency)/10))) 0%, rgba(202, 202, 202, calc(1 - (var(--background-transparency)/10))) 100%);
     --key-pointer-background-color: rgba(139, 146, 154, calc(1 - (var(--pointer-transparency)/10)));
+    --key-background-color: var(--btn-transparent-4-3);
+    --key-focused-background-color: var(--btn-transparent-4-1);
+    --key-meta-background-color: var(--btn-transparent-4-0);
+    --key-tab-background-color: var(--btn-transparent-4-0);
+    --key-caps-background-color: var(--btn-transparent-4-0);
+    --key-shift-background-color: var(--btn-transparent-4-0);
+    --key-enter-background-color: var(--btn-transparent-4-0);
+    --key-backspace-background-color: var(--btn-transparent-4-0);
+    --key-spacebar-background-color: var(--btn-transparent-4-3);
+    --key-spacer-background-color: var(--btn-transparent-4-0);
+    --key-extendedkey-background-color: var(--btn-transparent-4-2);
+    --key-extendedkey-focused-background-color: var(--btn-transparent-4-1);
+    --key-extendedkey-hover-background-color: var(--btn-transparent-4-1);
+    --key-toggleon-background-color: var(--btn-transparent-4-2);
+    --key-emoji-category-background-color: transparent;
+    --key-emoji-category-highlight-background-color: var(--btn-transparent-4-4);
+    --key-emoji-row-background-color: transparent;
+    --key-emoji-background-color: transparent;
+    --key-emoji-focused-background-color: var(--btn-transparent-4-4);
+    --key-touched-background-color: var(--btn-transparent-4-1);
+    --key-deadkey-background-color: var(--btn-transparent-4-0);
+}
+
+.Candy .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq {
+    background-color: var(--btn-transparent-4-2);
 }
 
 .DEX {
     --background-color: linear-gradient(55deg, rgba(48, 67, 72, calc(1 - (var(--background-transparency)/10))), rgba(43, 54, 57, calc(1 - (var(--background-transparency)/10))));
     --key-pointer-background-color: rgba(165, 159, 147, calc(1 - (var(--pointer-transparency)/10)));
+    --key-background-color: var(--btn-transparent-5-3);
+    --key-focused-background-color: var(--btn-transparent-5-1);
+    --key-meta-background-color: var(--btn-transparent-5-0);
+    --key-tab-background-color: var(--btn-transparent-5-0);
+    --key-caps-background-color: var(--btn-transparent-5-0);
+    --key-shift-background-color: var(--btn-transparent-5-0);
+    --key-enter-background-color: var(--btn-transparent-5-0);
+    --key-backspace-background-color: var(--btn-transparent-5-0);
+    --key-spacebar-background-color: var(--btn-transparent-5-3);
+    --key-spacer-background-color: var(--btn-transparent-5-0);
+    --key-extendedkey-background-color: var(--btn-transparent-5-2);
+    --key-extendedkey-focused-background-color: var(--btn-transparent-5-1);
+    --key-extendedkey-hover-background-color: var(--btn-transparent-5-1);
+    --key-toggleon-background-color: var(--btn-transparent-5-2);
+    --key-emoji-category-background-color: transparent;
+    --key-emoji-category-highlight-background-color: var(--btn-transparent-5-4);
+    --key-emoji-row-background-color: transparent;
+    --key-emoji-background-color: transparent;
+    --key-emoji-focused-background-color: var(--btn-transparent-5-4);
+    --key-touched-background-color: var(--btn-transparent-5-1);
+    --key-deadkey-background-color: var(--btn-transparent-5-0);
+}
+
+.DEX .virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Touched_3UFQq {
+    background-color: var(--btn-transparent-5-2);
 }
