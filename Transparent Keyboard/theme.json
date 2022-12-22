@@ -7,7 +7,7 @@
 	"description": "Custom keyboard",
 	"inject": {
 		"shared.css": [
-			"SP"
+			"SP", "SP Keyboard"
 		]
 	},
 	"patches": {
@@ -15,51 +15,51 @@
 			"default": "5",
 			"type": "slider",
 			"values": {
-			"0": { "backgroundTransparency/00%.css": ["SP"] },
-			"1": { "backgroundTransparency/10%.css": ["SP"] },
-			"2": { "backgroundTransparency/20%.css": ["SP"] },
-			"3": { "backgroundTransparency/30%.css": ["SP"] },
-			"4": { "backgroundTransparency/40%.css": ["SP"] },
-			"5": { "backgroundTransparency/50%.css": ["SP"] },
-			"6": { "backgroundTransparency/60%.css": ["SP"] },
-			"7": { "backgroundTransparency/70%.css": ["SP"] },
-			"8": { "backgroundTransparency/80%.css": ["SP"] },
-			"9": { "backgroundTransparency/90%.css": ["SP"] },
-			"10": { "backgroundTransparency/100%.css": ["SP"] }
+			"0": { "backgroundTransparency/00%.css": ["SP", "SP Keyboard"] },
+			"1": { "backgroundTransparency/10%.css": ["SP", "SP Keyboard"] },
+			"2": { "backgroundTransparency/20%.css": ["SP", "SP Keyboard"] },
+			"3": { "backgroundTransparency/30%.css": ["SP", "SP Keyboard"] },
+			"4": { "backgroundTransparency/40%.css": ["SP", "SP Keyboard"] },
+			"5": { "backgroundTransparency/50%.css": ["SP", "SP Keyboard"] },
+			"6": { "backgroundTransparency/60%.css": ["SP", "SP Keyboard"] },
+			"7": { "backgroundTransparency/70%.css": ["SP", "SP Keyboard"] },
+			"8": { "backgroundTransparency/80%.css": ["SP", "SP Keyboard"] },
+			"9": { "backgroundTransparency/90%.css": ["SP", "SP Keyboard"] },
+			"10": { "backgroundTransparency/100%.css": ["SP", "SP Keyboard"] }
 			}
 		},
 		"Buttons Transparency": {
 			"default": "1",
 			"type": "slider",
 			"values": {
-			"0": { "buttonTransparency/00%.css": ["SP"] },
-			"1": { "buttonTransparency/10%.css": ["SP"] },
-			"2": { "buttonTransparency/20%.css": ["SP"] },
-			"3": { "buttonTransparency/30%.css": ["SP"] },
-			"4": { "buttonTransparency/40%.css": ["SP"] },
-			"5": { "buttonTransparency/50%.css": ["SP"] },
-			"6": { "buttonTransparency/60%.css": ["SP"] },
-			"7": { "buttonTransparency/70%.css": ["SP"] },
-			"8": { "buttonTransparency/80%.css": ["SP"] },
-			"9": { "buttonTransparency/90%.css": ["SP"] },
-			"10": { "buttonTransparency/100%.css": ["SP"] }
+			"0": { "buttonTransparency/00%.css": ["SP", "SP Keyboard"] },
+			"1": { "buttonTransparency/10%.css": ["SP", "SP Keyboard"] },
+			"2": { "buttonTransparency/20%.css": ["SP", "SP Keyboard"] },
+			"3": { "buttonTransparency/30%.css": ["SP", "SP Keyboard"] },
+			"4": { "buttonTransparency/40%.css": ["SP", "SP Keyboard"] },
+			"5": { "buttonTransparency/50%.css": ["SP", "SP Keyboard"] },
+			"6": { "buttonTransparency/60%.css": ["SP", "SP Keyboard"] },
+			"7": { "buttonTransparency/70%.css": ["SP", "SP Keyboard"] },
+			"8": { "buttonTransparency/80%.css": ["SP", "SP Keyboard"] },
+			"9": { "buttonTransparency/90%.css": ["SP", "SP Keyboard"] },
+			"10": { "buttonTransparency/100%.css": ["SP", "SP Keyboard"] }
 			}
 		},
 		"Pointer Transparency": {
 			"default": "10",
 			"type": "slider",
 			"values": {
-			"0": { "pointerTransparency/00%.css": ["SP"] },
-			"1": { "pointerTransparency/10%.css": ["SP"] },
-			"2": { "pointerTransparency/20%.css": ["SP"] },
-			"3": { "pointerTransparency/30%.css": ["SP"] },
-			"4": { "pointerTransparency/40%.css": ["SP"] },
-			"5": { "pointerTransparency/50%.css": ["SP"] },
-			"6": { "pointerTransparency/60%.css": ["SP"] },
-			"7": { "pointerTransparency/70%.css": ["SP"] },
-			"8": { "pointerTransparency/80%.css": ["SP"] },
-			"9": { "pointerTransparency/90%.css": ["SP"] },
-			"10": { "pointerTransparency/100%.css": ["SP"] }
+			"0": { "pointerTransparency/00%.css": ["SP", "SP Keyboard"] },
+			"1": { "pointerTransparency/10%.css": ["SP", "SP Keyboard"] },
+			"2": { "pointerTransparency/20%.css": ["SP", "SP Keyboard"] },
+			"3": { "pointerTransparency/30%.css": ["SP", "SP Keyboard"] },
+			"4": { "pointerTransparency/40%.css": ["SP", "SP Keyboard"] },
+			"5": { "pointerTransparency/50%.css": ["SP", "SP Keyboard"] },
+			"6": { "pointerTransparency/60%.css": ["SP", "SP Keyboard"] },
+			"7": { "pointerTransparency/70%.css": ["SP", "SP Keyboard"] },
+			"8": { "pointerTransparency/80%.css": ["SP", "SP Keyboard"] },
+			"9": { "pointerTransparency/90%.css": ["SP", "SP Keyboard"] },
+			"10": { "pointerTransparency/100%.css": ["SP", "SP Keyboard"] }
 			}
 		}
 	}

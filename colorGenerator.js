@@ -14,11 +14,7 @@ let colors = [
 
 //background
 for (let i = 0; i <= 10; i++) {
-    let data = ""
-    for (let j = 0; j < themes.length; j++) {
-        let opacity = ((10 - i) / 10 * 255).toString(16).slice(0, 2).toUpperCase()
-        data += `.${themes[j]} {\n    --background-color: ${bgcolor[j].replaceAll(/(#......)/ig, `$1${opacity}`)};\n}\n\n`
-    }
+    let data =`:root {\n    --background-transparency: ${i};\n}\n\n` 
     fs.writeFile(`Transparent Keyboard/backgroundTransparency/${i}0%.css`, data, () => undefined)
 }
 //pointer

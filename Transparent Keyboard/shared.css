@@ -6,3 +6,27 @@
     width: 100%;
     bottom: 0;
 }
+
+.DefaultTheme {
+    --background-color: rgba(35, 38, 46, calc(1 - (var(--background-transparency)/10)));
+}
+
+.SteamGreen {
+    --background-color: rgba(62, 70, 55, calc(1 - (var(--background-transparency)/10)));
+}
+
+.Digital {
+    --background-color: rgba(1, 15, 2, calc(1 - (var(--background-transparency)/10)));
+}
+
+.NightShift {
+    --background-color: linear-gradient(43deg, rgba(2, 6, 9, calc(1 - (var(--background-transparency)/10))) 0%, rgba(10, 55, 69, calc(1 - (var(--background-transparency)/10))) 46%, rgba(3, 21, 25, calc(1 - (var(--background-transparency)/10))) 100%);
+}
+
+.Candy {
+    --background-color: linear-gradient(45deg, rgba(255, 255, 255, calc(1 - (var(--background-transparency)/10))) 0%, rgba(202, 202, 202, calc(1 - (var(--background-transparency)/10))) 100%);
+}
+
+.DEX {
+    --background-color: linear-gradient(55deg, rgba(48, 67, 72, calc(1 - (var(--background-transparency)/10))), rgba(43, 54, 57, calc(1 - (var(--background-transparency)/10))));
+}
