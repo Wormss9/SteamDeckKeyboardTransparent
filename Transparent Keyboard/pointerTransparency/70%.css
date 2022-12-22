@@ -1,24 +1,4 @@
-.DefaultTheme {
-    --key-pointer-background-color: #1A9FFF4C;
-}
-
-.SteamGreen {
-    --key-pointer-background-color: #c4b5504C;
-}
-
-.Digital {
-    --key-pointer-background-color: #19E0154C;
-}
-
-.NightShift {
-    --key-pointer-background-color: #f132924C;
-}
-
-.Candy {
-    --key-pointer-background-color: #8b929a4C;
-}
-
-.DEX {
-    --key-pointer-background-color: #a59f934C;
+:root {
+    --pointer-transparency: 7;
 }
 

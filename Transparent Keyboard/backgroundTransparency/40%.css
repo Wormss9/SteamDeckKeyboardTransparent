@@ -1,24 +1,4 @@
-.DefaultTheme {
-    --background-color: #23262E99;
-}
-
-.SteamGreen {
-    --background-color: #3E463799;
-}
-
-.Digital {
-    --background-color: #010F0299;
-}
-
-.NightShift {
-    --background-color: linear-gradient(43deg, #02060999 0%, #0a374599 46%, #03151999 100%);
-}
-
-.Candy {
-    --background-color: linear-gradient(45deg, #ffffff99 0%, #cacaca99 100%);
-}
-
-.DEX {
-    --background-color: linear-gradient(55deg, #30434899, #2b363999);
+:root {
+    --background-transparency: 4;
 }
 
