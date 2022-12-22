@@ -12,54 +12,54 @@
 	},
 	"patches": {
 		"Background Transparency": {
-			"default": "50%",
+			"default": "5",
 			"type": "slider",
 			"values": {
-			"0%": { "backgroundTransparency/00%.css": ["SP"] },
-			"10%": { "backgroundTransparency/10%.css": ["SP"] },
-			"20%": { "backgroundTransparency/20%.css": ["SP"] },
-			"30%": { "backgroundTransparency/30%.css": ["SP"] },
-			"40%": { "backgroundTransparency/40%.css": ["SP"] },
-			"50%": { "backgroundTransparency/50%.css": ["SP"] },
-			"60%": { "backgroundTransparency/60%.css": ["SP"] },
-			"70%": { "backgroundTransparency/70%.css": ["SP"] },
-			"80%": { "backgroundTransparency/80%.css": ["SP"] },
-			"90%": { "backgroundTransparency/90%.css": ["SP"] },
-			"100%": { "backgroundTransparency/100%.css": ["SP"] }
+			"0": { "backgroundTransparency/00%.css": ["SP"] },
+			"1": { "backgroundTransparency/10%.css": ["SP"] },
+			"2": { "backgroundTransparency/20%.css": ["SP"] },
+			"3": { "backgroundTransparency/30%.css": ["SP"] },
+			"4": { "backgroundTransparency/40%.css": ["SP"] },
+			"5": { "backgroundTransparency/50%.css": ["SP"] },
+			"6": { "backgroundTransparency/60%.css": ["SP"] },
+			"7": { "backgroundTransparency/70%.css": ["SP"] },
+			"8": { "backgroundTransparency/80%.css": ["SP"] },
+			"9": { "backgroundTransparency/90%.css": ["SP"] },
+			"10": { "backgroundTransparency/100%.css": ["SP"] }
 			}
 		},
 		"Buttons Transparency": {
-			"default": "10%",
+			"default": "1",
 			"type": "slider",
 			"values": {
-			"0%": { "buttonTransparency/00%.css": ["SP"] },
-			"10%": { "buttonTransparency/10%.css": ["SP"] },
-			"20%": { "buttonTransparency/20%.css": ["SP"] },
-			"30%": { "buttonTransparency/30%.css": ["SP"] },
-			"40%": { "buttonTransparency/40%.css": ["SP"] },
-			"50%": { "buttonTransparency/50%.css": ["SP"] },
-			"60%": { "buttonTransparency/60%.css": ["SP"] },
-			"70%": { "buttonTransparency/70%.css": ["SP"] },
-			"80%": { "buttonTransparency/80%.css": ["SP"] },
-			"90%": { "buttonTransparency/90%.css": ["SP"] },
-			"100%": { "buttonTransparency/100%.css": ["SP"] }
+			"0": { "buttonTransparency/00%.css": ["SP"] },
+			"1": { "buttonTransparency/10%.css": ["SP"] },
+			"2": { "buttonTransparency/20%.css": ["SP"] },
+			"3": { "buttonTransparency/30%.css": ["SP"] },
+			"4": { "buttonTransparency/40%.css": ["SP"] },
+			"5": { "buttonTransparency/50%.css": ["SP"] },
+			"6": { "buttonTransparency/60%.css": ["SP"] },
+			"7": { "buttonTransparency/70%.css": ["SP"] },
+			"8": { "buttonTransparency/80%.css": ["SP"] },
+			"9": { "buttonTransparency/90%.css": ["SP"] },
+			"10": { "buttonTransparency/100%.css": ["SP"] }
 			}
 		},
 		"Pointer Transparency": {
-			"default": "100%",
+			"default": "10",
 			"type": "slider",
 			"values": {
-			"0%": { "pointerTransparency/00%.css": ["SP"] },
-			"10%": { "pointerTransparency/10%.css": ["SP"] },
-			"20%": { "pointerTransparency/20%.css": ["SP"] },
-			"30%": { "pointerTransparency/30%.css": ["SP"] },
-			"40%": { "pointerTransparency/40%.css": ["SP"] },
-			"50%": { "pointerTransparency/50%.css": ["SP"] },
-			"60%": { "pointerTransparency/60%.css": ["SP"] },
-			"70%": { "pointerTransparency/70%.css": ["SP"] },
-			"80%": { "pointerTransparency/80%.css": ["SP"] },
-			"90%": { "pointerTransparency/90%.css": ["SP"] },
-			"100%": { "pointerTransparency/100%.css": ["SP"] }
+			"0": { "pointerTransparency/00%.css": ["SP"] },
+			"1": { "pointerTransparency/10%.css": ["SP"] },
+			"2": { "pointerTransparency/20%.css": ["SP"] },
+			"3": { "pointerTransparency/30%.css": ["SP"] },
+			"4": { "pointerTransparency/40%.css": ["SP"] },
+			"5": { "pointerTransparency/50%.css": ["SP"] },
+			"6": { "pointerTransparency/60%.css": ["SP"] },
+			"7": { "pointerTransparency/70%.css": ["SP"] },
+			"8": { "pointerTransparency/80%.css": ["SP"] },
+			"9": { "pointerTransparency/90%.css": ["SP"] },
+			"10": { "pointerTransparency/100%.css": ["SP"] }
 			}
 		}
 	}
