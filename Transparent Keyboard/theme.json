@@ -1,7 +1,7 @@
 {
 	"name": "Transparent Keyboard",
 	"author": "Wormss9",
-	"version": "v1.1",
+	"version": "v1.2",
 	"target": "Keyboard",
 	"manifest_version": 4,
 	"description": "Custom keyboard",
